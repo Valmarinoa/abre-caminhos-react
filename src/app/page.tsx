@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
 
-            <h6 className="text-left pb-6 text-sm w-[52%] leading-tight font-light">
+            <h6 className="text-left pb-6 text-sm w-[52%] leading-tight">
               Interaction experiment inspired by the moving landscapes of
               Lençoes Marenhences on Brazil’s north Atlantic coast,- known for
               its vast desert landscape of tall, white sand dunes and seasonal
