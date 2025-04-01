@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  cursor: none !important;
+}
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 0px; /* Hides scrollbar */
+  height: 0px;
+  display: none; /* Ensures it's not visible */
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none; /* Hides scrollbar */
+}
+
+/* Internet Explorer & Edge */
+body {
+  margin: auto;
+  cursor: none !important;
+  -ms-overflow-style: none;
+}
+
+
+.font-baskervville {
+  font-family: var(--font-baskervville), serif;
+  font-weight: 400;
+}
+
+.font-baskervville-italic {
+  font-family: var(--font-baskervville), serif;
+  font-weight: 400;
+  font-style: italic;
+}
