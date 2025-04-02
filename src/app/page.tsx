@@ -47,7 +47,7 @@ export default function Home() {
                 <h1 className="text-[7vw]">{getChars("Caminhos")}</h1>
                 <p className="text-md absolute right-0 bottom-0 font-baskervville-italic font-baskervville">
                   {" "}
-                  (Open Ways)
+                  (Open Paths)
                 </p>
               </div>
             </div>
